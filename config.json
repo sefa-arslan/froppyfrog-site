@@ -2,7 +2,7 @@
   "dealIntervalDays": 4,
   "interstitialEveryN": 3,
   "interstitialMinGapSec": 180,
-  "interstitialMinRunSec": 45,
+  "interstitialMinRunSec": 30,
   "difficultyScale": 1.0,
   "seasonOverrides": {}
 }

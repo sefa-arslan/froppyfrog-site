@@ -1,16 +1,7 @@
 (() => {
   "use strict";
 
-  const APP_STORE_URL = "https://apps.apple.com/app/id6817477024";
-  const STORE_RELEASED = false;
-
-  if (STORE_RELEASED) {
-    document.querySelectorAll(".store-action").forEach((link) => {
-      link.href = APP_STORE_URL;
-      link.textContent = "Download on the App Store";
-    });
-    document.querySelectorAll(".release-status").forEach((status) => status.remove());
-  }
+  // Store handoff (live since 2026-11-08) is chosen in /store-handoff.js.
 
   function prepareLazyImage(image) {
     const source = image.dataset.lazySrc;
